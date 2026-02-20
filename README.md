@@ -1,16 +1,28 @@
-# MediCenter
+# Medicenter Website
 
-Responsive medical landing page built with HTML and CSS.
+Responsive website project built with HTML, CSS and JavaScript.
 
-## Features
-- Desktop layout
-- Tablet responsiveness (in progress)
-- Clean CSS structure
+## 🚀 Features
 
-## Technologies
+- Responsive layout
+- Mobile hamburger menu
+- Flexbox layout structure
+- Clean footer design
+
+## 🛠️ Technologies
+
 - HTML5
 - CSS3
-- Flexbox
+- JavaScript (Vanilla JS)
 
-## Author
-Leandro Rodrigues
+## 📱 Responsive
+
+The website adapts to desktop and mobile screens.
+
+## 🌍 Live Demo
+
+https://fudevleo.github.io/Medicenter/
+
+## 📌 Purpose
+
+Project developed during my front-end learning journey.
