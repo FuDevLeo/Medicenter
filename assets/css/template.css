@@ -84,8 +84,10 @@ nav a:hover{
 }
 
 .banner_options{
-    height: 210px;
-    display: flex;
+  display: flex;
+  min-height: 210px; /* pode até tirar também */
+  height: auto;
+  align-items: stretch;
 }
 
 .banner1, .banner2, .banner3{
@@ -235,4 +237,92 @@ article .news_resume {
     margin-bottom: 30px;
 }
 
-/*footer */
+footer {
+    background: #1e1e1e;
+    color: #fff;
+    padding: 0 0 40px 0;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-top-box {
+  flex: 1;
+  padding: 30px;
+  color: #fff;
+}
+
+.box1 {
+  background: #39aae1;
+}
+
+.box2 {
+  background: #0079c7;
+}
+
+.box3 {
+  background: #2b4c99;
+}
+
+.footer-top-box h3 {
+  margin: 0 0 10px 0;
+}
+
+.footer-top-box p {
+  font-size: 14px;
+}
+
+.footer-container{
+  width: 990px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.footer-column h3 {
+    border-bottom: 2px solid #39aae1;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.footer-column p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-bottom {
+  border-top: 1px solid #444;
+  margin-top: 30px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.footer-top-inner {
+  width: 990px;   /* garante alinhado com o site */
+  display: flex;
+}
+
+.footer-top {
+  background: #1e1e1e;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  .footer-top-inner {
+    flex-direction: column;
+  }
+}
